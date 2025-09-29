@@ -52,7 +52,7 @@ npm run dev
 ## 📡 Rotas da API
 
 ### 1. Cadastrar Usuário
-**POST** `/usuarios`
+**POST** `http://localhost:3000/usuarios`
 
 **Body:**
 ```json
@@ -76,7 +76,7 @@ npm run dev
 ```
 
 ### 2. Listar Todos os Usuários
-**GET** `/usuarios`
+**GET** `http://localhost:3000/usuarios`
 
 **Resposta de Sucesso (200):**
 ```json
@@ -100,7 +100,7 @@ npm run dev
 ```
 
 ### 3. Buscar Usuário por ID
-**GET** `/usuarios/:id`
+**GET** `http://localhost:3000/usuarios/:id`
 
 **Resposta de Sucesso (200):**
 ```json
